@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jhosely.hubermar.Principal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/empresa"
+                android:layout_width="134dp"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:text="HuberMar"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nombreUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textEnd"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="@color/colorWhite"
+                    android:textSize="13dp"
+                    android:gravity="end" />
+                <TextView
+                    android:id="@+id/perfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textEnd"
+                    android:paddingRight="10dp"
+                    android:textSize="14dp"
+                    android:text=""
+                    android:textColor="@color/colorWhite"
+                    android:gravity="end" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informes KPI"
+            android:textAlignment="center"
+            android:background="@color/colorBlueOscure"
+            android:textColor="@color/colorNegro"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/flechaabajo"
+            android:drawablePadding="8dp"
+            android:id="@+id/basicos"
+            android:text="Párametros Basicos "
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:background="@color/colorRosa">
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sucursal" />
+
+            <Spinner
+                android:id="@+id/sucursal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordespinnner"
+                android:entries="@array/sucursal"
+            />
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terceros" />
+
+            <Spinner
+                android:id="@+id/terceros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordespinnner"
+                android:entries="@array/terceros"
+
+                />
+            <TextView
+                android:id="@+id/importadorlb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seleccione Importador" />
+
+            <Spinner
+                android:id="@+id/importador"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bordespinnner"
+                android:entries="@array/importador"
+                />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seleccione Reporte" />
+
+            <Spinner
+                android:id="@+id/reporte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bordespinnner"
+                android:entries="@array/regimen"
+                />
+
+            <Button
+                android:id="@+id/listo1"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@drawable/boton_redondo"
+                android:textColor="@color/colorWhite"
+                android:text="Listo"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/flechaabajo"
+            android:drawablePadding="8dp"
+            android:id="@+id/espesifica"
+            android:text="Información Especifica"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/flechaabajo"
+            android:drawablePadding="8dp"
+            android:id="@+id/filtro"
+            android:text="Filtro para el Informe"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/flechaabajo"
+            android:drawablePadding="8dp"
+            android:id="@+id/generar"
+            android:text="Generar El informe"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jhosely.hubermar.Principal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/empresa"
+                android:layout_width="134dp"
+                android:layout_height="50dp"
+                android:paddingLeft="20dp"
+                android:text="HuberMar"
+                android:textSize="22dp"
+                android:textColor="@color/colorWhite" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nombreUser"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textEnd"
+                    android:paddingRight="10dp"
+                    android:text=""
+                    android:textColor="@color/colorWhite"
+                    android:textSize="13dp"
+                    android:gravity="end" />
+                <TextView
+                    android:id="@+id/perfil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textEnd"
+                    android:paddingRight="10dp"
+                    android:textSize="14dp"
+                    android:text=""
+                    android:textColor="@color/colorWhite"
+                    android:gravity="end" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informes KPI"
+            android:textAlignment="center"
+            android:background="@color/colorBlueOscure"
+            android:textColor="@color/colorNegro"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/flechaabajo"
+            android:drawablePadding="8dp"
+            android:id="@+id/parametros"
+            android:text="Párametros"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/flechaabajo"
+            android:drawablePadding="8dp"
+            android:id="@+id/listado"
+            android:text="Lista DO"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/flechaabajo"
+            android:drawablePadding="8dp"
+            android:id="@+id/detalles"
+            android:text="Detalles"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

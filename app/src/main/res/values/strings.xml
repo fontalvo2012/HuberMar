@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">SqlApp</string>
+    <string name="title_activity_consultas">ConsultasActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="menu_principal">MENU PRINCIPAL</string>
+
+    <string-array name="country_arrays">
+        <item>.::Seleccion::.</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+    <string-array name="cabecera_tabla">
+        <item>Id de la fila</item>
+        <item>Valor</item>
+        <item>Valor 2</item>
+        <item>Valor 3</item>
+        <item>Valor 4</item>
+    </string-array>
+
+    <string-array name="informe2">
+        <item>NUMERO_VIN</item>
+        <item>BANCO</item>
+        <item>NUMERO_STICKER</item>
+        <item>FPAGO</item>
+        <item>NUMERO_ACEPTACION</item>
+        <item>FACEPTACION</item>
+        <item>NUMERO_LEVANTE</item>
+        <item>FLEVANTE</item>
+        <item>NUMERO_REG_LICENCIA</item>
+        <item>FAPROBACION</item>
+        <item>LINEA_PRODUCCION</item>
+        <item>NOMBRE_TRANSPORTADOR</item>
+        <item>NOMBRE_PAIS</item>
+    </string-array>
+
+    <string-array name="parametros">
+        <item>NUMERO_DO</item>
+        <item>PEDIDO</item>
+        <item>FECHA_APERTUEA</item>
+        <item>REGIMEN</item>
+    </string-array>
+
+    <string-array name="dim_reporte_dim">
+        <item>ANIO</item>
+        <item>MES</item>
+        <item>NUMERO_FORMULARIO_DI</item>
+        <item>FECHA_ACEPTACION</item>
+        <item>NUMERO_DO</item>
+        <item>NUMERO_PEDIDO</item>
+        <item>FECHA_APERTURA</item>
+        <item>NOMBRE_SEGMENTO</item>
+        <item>NUMERO_IDENTIFICACION</item>
+        <item>NOMBRE_IMPORTADOR</item>
+        <item>NOMBRE_ADMINISTRACION</item>
+        <item>NUMERO_IDENTIFICACION</item>
+        <item>NOMBRE_PERSONA</item>
+        <item>FACTURA</item>
+        <item>FECHA_FACTURA</item>
+        <item>NUMERO_LISTA_EMPAQUE</item>
+        <item>CODIGO_CONDICION_ENTREGA</item>
+        <item>NOMBRE_EXPORTADOR</item>
+        <item>PESO_NETO</item>
+        <item>PESO_BRUTO</item>
+        <item>VALOR_TOTAL_FOB</item>
+        <item>VALOR_CIF</item>
+        <item>TRM</item>
+        <item>FECHA_DOC_TRANS</item>
+        <item>NUMERO_DOC_TRANS</item>
+        <item>FECHA_MANIFIESTO</item>
+        <item>NUMERO_MANIFIESTO</item>
+        <item>NUMERO_STICKER</item>
+        <item>FECHA_PAGO</item>
+        <item>DIM</item>
+        <item>SELECTIVIDAD</item>
+        <item>VALOR_TOTAL_FOB</item>
+        <item>VALOR_FLETES</item>
+        <item>VALOR_SEGUROS</item>
+        <item>VALOR_OTROS_GASTOS</item>
+        <item>AJUSTE_VALOR</item>
+        <item>VALOR_ADUANA</item>
+        <item>PORCENTAJE_ARANCEL</item>
+        <item>BASE_ARANCEL</item>
+        <item>TOTAL_ARANCEL</item>
+        <item>PORCENTAJE_IVA</item>
+        <item>BASE_IVA</item>
+        <item>TOTAL_IVA</item>
+        <item>TOTAL_LIQUIDADO</item>
+        <item>NUMERO_LEVANTE</item>
+        <item>FECHA_LEVANTE</item>
+        <item>TRAMITE_REALIZADO_POR</item>
+        <item>CODIGO_UAP</item>
+        <item>NUMERO_ACEPTACION</item>
+        <item>FORMULARIO_FISICO</item>
+        <item>FECHA_ACEPTACION</item>
+        <item>FECHA_RETIRO_TOTAL</item>
+        <item>CODIGO_MODALIDAD</item>
+        <item>CODIGO_POSICION</item>
+        <item>CODIGO_UNIDAD_CCIAL_DIAN</item>
+        <item>CANTIDAD</item>
+        <item>NUMERO_REG_LICENCIA</item>
+        <item>PROGRAMA_AUTORIZADO</item>
+        <item>CIP</item>
+        <item>C46</item>
+        <item>C47</item>
+        <item>C48</item>
+        <item>C49</item>
+        <item>C50</item>
+        <item>DESCRIPCION</item>
+        <item>CODIGO_DEPOSITO</item>
+    </string-array>
+
+    <string-array name="modalidad">
+        <item>::Selecione::</item>
+        <item>Importacion</item>
+        <item>DTA</item>
+        <item>Traslados</item>
+        <item>Exportacion</item>
+        <item>Otros</item>
+        <item>Todos</item>
+    </string-array>
+
+    <string-array name="sucursal">
+        <item>::Selecione::</item>
+        <item>Todas</item>
+        <item>Barranquilla</item>
+        <item>Bogota</item>
+        <item>Buenaventura</item>
+        <item>Cartagena</item>
+        <item>Medellin</item>
+        <item>Santa Marta</item>
+
+    </string-array>
+
+    <string-array name="terceros">
+        <item>::Selecione::</item>
+
+    </string-array>
+
+
+    <string-array name="estado">
+        <item>::Selecione::</item>
+        <item>ACTIVO</item>
+        <item>INACTIVO</item>
+    </string-array>
+
+    <string-array name="regimen2">
+        <item>TODOS</item>
+        <item>IMPORTACION</item>
+        <item>EXPORTACION</item>
+        <item>TRANSITO</item>
+        <item>OTROS</item>
+    </string-array>
+
+    <string-array name="importador">
+        <item>::Selecione::</item>
+        <item>INDUSTRIA NACIONAL DE GASEOSAS S.A.</item>
+        <item>SAINT - GOBAIN ABRASIVOS COLOMBIA LTDA</item>
+        <item>SAINT-GOBAIN COLOMBIA S.A.S.</item>
+    </string-array>
+
+    <string-array name="regimen">
+        <item>::Selecione::</item>
+        <item>COMUN</item>
+        <item>SIMPLE</item>
+    </string-array>
+
+    <string name="country_prompt">Choose a country</string>
+</resources>
